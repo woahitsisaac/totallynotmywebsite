@@ -22,15 +22,11 @@ opacity: 0.8;
 opacity: 0.5;
 }
 
-.trollVideod 
-{
-margin: 0;
-position: absolute;
-top: 18%;
-left: 37%;
-}
-
 body 
 {
 background-color: #121212;
+background-repeat: no-repeat;
+background-size: 50%;
+background-position: center;
+background-attachment: fixed;
 }
