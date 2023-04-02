@@ -1,4 +1,5 @@
-.trollButtond {
+.trollButtond 
+{
   height: 250px;
   width: 300px;
   background-color: rgb(200,0,0);
@@ -11,21 +12,25 @@
   left: 43%;
 }
 
-.trollButtond:hover {
+.trollButtond:hover 
+{
 opacity: 0.8;
 }
 
-.trollButtond:active {
+.trollButtond:active 
+{
 opacity: 0.5;
 }
 
-.myVideod{
+.trollVideod 
+{
 margin: 0;
 position: absolute;
 top: 18%;
 left: 37%;
 }
 
-body{
+body 
+{
 background-color: #121212;
 }
