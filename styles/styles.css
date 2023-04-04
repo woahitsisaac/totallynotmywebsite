@@ -6,10 +6,6 @@
   color: white;
   border: none;
   border-radius: 2px;
-  margin: 0;
-  position: absolute;
-  top: 25%;
-  left: 43%;
 }
 
 .trollButtond:hover 
@@ -29,4 +25,7 @@ background-repeat: no-repeat;
 background-size: 50%;
 background-position: center;
 background-attachment: fixed;
+display: flex;  
+justify-content: center;  
+align-items: center;  
 }
