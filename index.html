@@ -4,16 +4,22 @@
  <head>
     <title>HOT DRAGON SEX!!!!!</title>
     <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon” />
  </head>
   <body>
     <!--  MP4, WebM, and Ogg -->
     <button onclick="actualMusic()" id="trollButton" class="trollButtond">CLICK HERE FOR HOT DRAGON SEX!!!!</button>
     <audio id="divAudio" loop>
-      <source src="media/ooo.mp3" type="audio/mp3">
+      <source src="media/kys.mp3" type="audio/mp3">
     </audio>
+    <video id="divVideo" class="divVideo" muted loop width="0">
+      <source src="media/kys.mp4" type="">
+    </video>
     <script>
       var vAudio = document.getElementById("divAudio");
       var vButton = document.getElementById("trollButton");
+      var vVideo = document.getElementById("divVideo")
       var hasInit = false;
       function actualMusic()
       {
@@ -22,7 +28,9 @@
              hasInit = true;
              vAudio.play();
              vButton.remove();
-             document.body.style.backgroundImage = "url('./media/HOTDRAGONSEXDOTCOM.png')";
+             vVideo.play();
+             vVideo.width = "500";
+             document.body.style.backgroundColor = "black"
          }
       }
     </script>
