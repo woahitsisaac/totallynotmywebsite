@@ -6,6 +6,10 @@
   color: white;
   border: none;
   border-radius: 2px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .trollButtond:hover 
@@ -28,4 +32,12 @@ background-attachment: fixed;
 display: flex;  
 justify-content: center;  
 align-items: center;  
+}
+
+.divVideo
+{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
