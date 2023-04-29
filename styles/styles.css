@@ -64,7 +64,7 @@ from{
   transform: translate(-50%, -50%) scale(150%)
 }
 to{
-  transform: translate(-50%, 200%) scale(150%)
+  transform: translate(-50%, 500%) scale(150%)
 }
 }
 
