@@ -99,3 +99,5 @@ to{
   opacity: 0%;
   pointer-events: none;
 }
+
+::-webkit-scrollbar { display: none; }
